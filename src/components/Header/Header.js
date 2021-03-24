@@ -1,20 +1,14 @@
 import React from 'react';
 import './Header.css';
-import Link from '../Link/Link';
 
 
-const Header = ({logo}) => {
+const Header = ({ logo }) => {
 
     return <>
 
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <p>
-                Edit <code>src/App.js</code> and save to reload.
-    </p>
-
-    <Link title="Learn React" url="#" />
-           
+            <h1>My Github Portfolio</h1>
         </header> </>
 
 };
